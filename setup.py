@@ -19,16 +19,16 @@ with open(os.path.join('docs', 'release-notes.rst')) as f:
     history = f.read()
 
 setup(
-    name="redis-py-cluster",
-    version="1.3.5",
-    description="Cluster library for redis 3.0.0 built on top of redis-py lib",
+    name="rediscluster",
+    version="1.3.6",
+    description="Cluster library for redis 4.0.0  built on top of redis-py lib",
     long_description=readme + '\n\n' + history,
     author="Johan Andersson",
     author_email="Grokzen@gmail.com",
     maintainer='Johan Andersson',
     maintainer_email='Grokzen@gmail.com',
     packages=["rediscluster"],
-    url='http://github.com/grokzen/redis-py-cluster',
+    url='https://github.com/afshinrudgar/redis-py-cluster',
     license='MIT',
     install_requires=[
         'redis>=2.10.6'
